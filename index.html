@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="dsCms">
 <head>
     <title>DirtSimpleCMS</title>
 
-    <script src="../js/DirtSimpleCms.js" />
+
+    <script src="js/angular.min.js"></script>
+    <script src="DirtSimpleCms.js"></script>
+    <script src="controllers/contentController.js"></script>
+    <script src="directives/cmsEntry.js"></script>
 
 </head>
-<body>
-
+<body ng-controller="contentController">
+    <content-item id="1"/>
 </body>
 </html>

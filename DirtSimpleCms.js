@@ -1,0 +1,3 @@
+var dsCms = angular.module('dsCms', []);
+
+//put dsCms.config here...
